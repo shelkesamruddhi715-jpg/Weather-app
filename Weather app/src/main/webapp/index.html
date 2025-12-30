@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<div style="color:white; text-align:center">
+<marquee scroll="left"><h1>Welcome to the Weather Web App</h1></marquee> 
+<img src="images/weather-logo.png" style=" height: auto; width: auto; filter: drop-shadow(10px 10px 10px black);">
+   
+    <h3>Know your city Weather Before steping your foot out of your Home!</h3>
+ 
+    <h2>This Weather App can help you with </h2> <p><b>Daily Planning</b>
+
+Helps plan daily activities like work, travel, or outdoor events
+
+Tells whether to carry an umbrella, wear warm clothes, or stay hydrated/<p>
+<p><b>Travel Assistance</b>
+
+Provides weather information for destination cities
+
+Helps avoid travel during extreme weather conditions (rain, storms, heatwaves) and with many more.</p> so On our weather app you can find out  weather of your Home city,so let's know what weather today could be!</p>
+     <form action="WeatherServlet" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city"/>
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>    
+ </div>
+ 
+</body>
+</html>
